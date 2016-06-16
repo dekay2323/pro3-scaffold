@@ -6,6 +6,8 @@ class LineItem {
     Integer quantity
     String unitOfMeasure
     BigDecimal unitPrice
+    
+    static belongsTo = [request: Request]
 
     Date dateCreated
     Date lastUpdated
