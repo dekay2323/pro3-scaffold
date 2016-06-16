@@ -12,8 +12,9 @@ class Project {
     static constraints = {
         name nullable: false
         client nullable: false
+    }
 
-        dateCreated nullable: false
-        lastUpdated nullable: false
+    public String toString() {
+        "${name}"
     }
 }

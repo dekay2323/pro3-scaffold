@@ -16,9 +16,9 @@ class LineItem {
         quantity nullable: true
         unitOfMeasure nullable: true
         unitPrice nullable: true, scale: 2
+    }
 
-        dateCreated nullable: false
-        lastUpdated nullable: false
-
+    public String toString() {
+        "${description}"
     }
 }

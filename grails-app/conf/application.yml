@@ -13,6 +13,13 @@ dataSource:
     username: sa
     password:
 
+grails:
+  plugin:
+    springsecurity:
+      rejectIfNoRule: false
+      fii:
+        rejectPublicInvocations: false
+
 environments:
     development:
         dataSource:

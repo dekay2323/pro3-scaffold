@@ -8,8 +8,9 @@ class Client {
 
     static constraints = {
         name nullable: false, blank: false
+    }
 
-        dateCreated nullable: false
-        lastUpdated nullable: false
+    public String toString() {
+        "${name}"
     }
 }
