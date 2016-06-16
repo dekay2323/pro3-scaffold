@@ -10,7 +10,7 @@ class Vendor {
     Date lastUpdated
 
     static constraints = {
-        name nullable: false, blank: false
+        name nullable: false, blank: false, size: 0..50
     }
 
     public String toString() {

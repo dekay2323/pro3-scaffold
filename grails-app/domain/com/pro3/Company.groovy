@@ -9,7 +9,7 @@ class Company {
     static hasMany = [projects: Project]
 
     static constraints = {
-        name nullable: false, blank: false
+        name nullable: false, blank: false, size: 0..50
     }
 
     public String toString() {

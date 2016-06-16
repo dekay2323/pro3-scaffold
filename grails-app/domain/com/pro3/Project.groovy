@@ -10,7 +10,7 @@ class Project {
     static hasMany = [requests: Request]
 
     static constraints = {
-        name nullable: false
+        name nullable: false, size: 0..50
         client nullable: false
     }
 

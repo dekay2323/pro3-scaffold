@@ -19,15 +19,15 @@ class Request {
     static hasMany = [bidders: Vendor, lineItems: LineItem]
 
     static constraints = {
-        reqNumber nullable: true
+        reqNumber nullable: true, unique: true, size: 0..25
         client nullable: false
         project nullable: false
-        description nullable: true, blank: false
+        description nullable: true, blank: false, size: 0..500
         budget nullable: true, scale: 2
         rasDate nullable: true
-        estLeadTime nullable: true
+        estLeadTime nullable: true, size: 0..25
         strategy nullable: true
-        technicalInstructions nullable: true
+        technicalInstructions nullable: true, size: 0..500
         bidders nullable: true
         lineItems nullable: true
     }
