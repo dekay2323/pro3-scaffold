@@ -18,5 +18,10 @@
         <processorPath useClasspath="true" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="pro3_integrationTest" target="1.8" />
+      <module name="pro3_main" target="1.8" />
+      <module name="pro3_test" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

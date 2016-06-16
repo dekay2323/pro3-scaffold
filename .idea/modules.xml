@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/pro3.iml" filepath="$PROJECT_DIR$/pro3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/pro3.iml" filepath="$PROJECT_DIR$/.idea/modules/pro3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/pro3_integrationTest.iml" filepath="$PROJECT_DIR$/.idea/modules/pro3_integrationTest.iml" group="pro3" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/pro3_main.iml" filepath="$PROJECT_DIR$/.idea/modules/pro3_main.iml" group="pro3" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/pro3_test.iml" filepath="$PROJECT_DIR$/.idea/modules/pro3_test.iml" group="pro3" />
     </modules>
   </component>
 </project>
