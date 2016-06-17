@@ -1,18 +1,17 @@
 package com.pro3
 
-class Rfq {
+class Criteria {
     String name
-    Vendor vendor
+    String weighting
 
     Date dateCreated
     Date lastUpdated
 
     static belongsTo = [request: Request]
-    static hasMany = [clarifications: Clarification, quotes: Quote]
 
     static constraints = {
-        name nullable: false, blank: false, unique: true, size: 0..25
-        vendor nullable: false
+        name nullable: false, blank: false
+        weighting nullable: true
     }
 
     public String toString() {

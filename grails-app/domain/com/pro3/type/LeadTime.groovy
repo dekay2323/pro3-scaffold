@@ -1,15 +1,13 @@
-package com.pro3
+package com.pro3.type
 
-class Company {
+class LeadTime {
     String name
 
     Date dateCreated
     Date lastUpdated
 
-    static hasMany = [projects: Project]
-
     static constraints = {
-        name nullable: false, blank: false, size: 0..50
+        name nullable: false, blank: false, unique: true, size: 0..25
     }
 
     public String toString() {

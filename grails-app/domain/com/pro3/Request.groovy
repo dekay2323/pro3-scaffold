@@ -1,5 +1,6 @@
 package com.pro3
 
+import com.pro3.type.LeadTime
 import com.pro3.type.Strategy
 
 class Request {
@@ -9,14 +10,27 @@ class Request {
     BigDecimal budget
     Date rasDate
     String estLeadTime
+    LeadTime leadTime
     Strategy strategy
     String technicalInstructions
+    User enteredBy
+    Date enteredByDate
+    User approvedBy
+    Date approvedByDate
+    User modifiedBy
+    Date modifiedByDate
 
     Date dateCreated
     Date lastUpdated
 
     static belongsTo = [project: Project]
-    static hasMany = [bidders: Vendor, lineItems: LineItem]
+    static hasMany = [
+            bidders: Vendor,
+            lineItems: LineItem,
+            vddrs: Vddr,
+            criteria: Criteria,
+            rfqs: Rfq
+    ]
 
     static constraints = {
         reqNumber nullable: true, unique: true, size: 0..25
@@ -26,10 +40,22 @@ class Request {
         budget nullable: true, scale: 2
         rasDate nullable: true
         estLeadTime nullable: true, size: 0..25
+        leadTime nullable: true
         strategy nullable: true
         technicalInstructions nullable: true, size: 0..500
-        bidders nullable: true
-        lineItems nullable: true
+//
+//        bidders nullable: true
+//        lineItems nullable: true
+//        vddrs nullable: true
+//        criteria nullable: true
+//        rfqs nullable: true
+
+        enteredBy nullable: true
+        enteredByDate nullable: true
+        approvedBy nullable: true
+        approvedByDate nullable: true
+        modifiedBy nullable: true
+        modifiedByDate nullable: true
     }
 
     public String toString() {

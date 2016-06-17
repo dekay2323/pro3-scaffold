@@ -1,11 +1,13 @@
 package com.pro3
 
 class LineItem {
-    String wbs
+    String code
+    Wbs wbs
     String description
     Integer quantity
     String unitOfMeasure
     BigDecimal unitPrice
+    BigDecimal extendedPrice
 
     static belongsTo = [request: Request]
 
@@ -13,14 +15,16 @@ class LineItem {
     Date lastUpdated
 
     static constraints = {
-        wbs nullable: true, size: 0..25
+        code nullable: false
+        wbs nullable: true
         description nullable: true, size: 0..500
         quantity nullable: true
         unitOfMeasure nullable: true, size: 0..25
         unitPrice nullable: true, scale: 2
+        extendedPrice nullable: true, scale: 2
     }
 
     public String toString() {
-        "${description}"
+        "${code}"
     }
 }
