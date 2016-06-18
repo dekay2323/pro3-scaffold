@@ -8,7 +8,7 @@ class Project {
     Date dateCreated
     Date lastUpdated
 
-    static hasMany = [requests: Request]
+    static hasMany = [requests: RequestItem]
 
     static constraints = {
         projectNumber nullable: false, size: 0..25

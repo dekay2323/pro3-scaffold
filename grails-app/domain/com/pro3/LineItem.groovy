@@ -8,7 +8,7 @@ class LineItem {
     String unitOfMeasure
     BigDecimal extendedPrice
 
-    static belongsTo = [request: Request]
+    static belongsTo = [request: RequestItem]
 
     Date dateCreated
     Date lastUpdated

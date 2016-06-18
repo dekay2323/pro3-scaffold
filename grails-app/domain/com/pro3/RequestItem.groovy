@@ -4,7 +4,7 @@ import com.pro3.type.LeadTime
 import com.pro3.type.RequestStatus
 import com.pro3.type.Strategy
 
-class Request {
+class RequestItem {
     String reqNumber
     Client client
     String description

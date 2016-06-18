@@ -3,8 +3,8 @@ package com.pro3
 class Vendor {
     String name
 
-    static hasMany = [requests: Request]
-    static belongsTo = Request
+    static hasMany = [requests: RequestItem]
+    static belongsTo = RequestItem
 
     Date dateCreated
     Date lastUpdated

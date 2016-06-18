@@ -1,4 +1,4 @@
-package com.pro3.scaffold.type
+package com.pro3.type
 
 import com.pro3.type.LeadTime
 

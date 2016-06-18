@@ -7,7 +7,7 @@ class Criteria {
     Date dateCreated
     Date lastUpdated
 
-    static belongsTo = [request: Request]
+    static belongsTo = [request: RequestItem]
 
     static constraints = {
         name nullable: false, blank: false

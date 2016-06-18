@@ -4,25 +4,25 @@ import static org.springframework.http.HttpStatus.*
 import grails.transaction.Transactional
 
 @Transactional(readOnly = true)
-class RequestController {
+class RequestItemController {
 
     static allowedMethods = [save: "POST", update: "PUT", delete: "DELETE"]
 
     def index(Integer max) {
         params.max = Math.min(max ?: 10, 100)
-        respond Request.list(params), model:[requestCount: Request.count()]
+        respond RequestItem.list(params), model:[requestCount: RequestItem.count()]
     }
 
-    def show(Request request) {
+    def show(RequestItem request) {
         respond request
     }
 
     def create() {
-        respond new Request(params)
+        respond new RequestItem(params)
     }
 
     @Transactional
-    def save(Request request) {
+    def save(RequestItem request) {
         if (request == null) {
             transactionStatus.setRollbackOnly()
             notFound()
@@ -46,12 +46,12 @@ class RequestController {
         }
     }
 
-    def edit(Request request) {
+    def edit(RequestItem request) {
         respond request
     }
 
     @Transactional
-    def update(Request request) {
+    def update(RequestItem request) {
         if (request == null) {
             transactionStatus.setRollbackOnly()
             notFound()
@@ -76,7 +76,7 @@ class RequestController {
     }
 
     @Transactional
-    def delete(Request request) {
+    def delete(RequestItem request) {
 
         if (request == null) {
             transactionStatus.setRollbackOnly()

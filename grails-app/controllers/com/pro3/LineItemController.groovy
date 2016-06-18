@@ -1,4 +1,4 @@
-package com.pro3.scaffold
+package com.pro3
 
 import com.pro3.LineItem
 

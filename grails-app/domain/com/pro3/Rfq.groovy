@@ -7,7 +7,7 @@ class Rfq {
     Date dateCreated
     Date lastUpdated
 
-    static belongsTo = [request: Request]
+    static belongsTo = [request: RequestItem]
     static hasMany = [clarifications: Clarification, quotes: Quote]
 
     static constraints = {
