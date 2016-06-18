@@ -14,7 +14,7 @@ buildscript {
 }
 
 version "0.1"
-group "pro3"
+group "com.pro3"
 
 apply plugin:"eclipse"
 apply plugin:"idea"
@@ -61,7 +61,6 @@ dependencies {
     testRuntime "org.seleniumhq.selenium:selenium-htmlunit-driver:2.47.1"
     testRuntime "net.sourceforge.htmlunit:htmlunit:2.18"
     compile 'org.grails.plugins:spring-security-core:3.1.1'
-    compile 'com.siprell.plugins:bootstrap-framework:1.0.3'
 }
 
 task wrapper(type: Wrapper) {
