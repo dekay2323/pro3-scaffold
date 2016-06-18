@@ -7,6 +7,7 @@
     </head>
     <body>
         <a href="#show-${propertyName}" class="skip" tabindex="-1"><g:message code="default.link.skip.label" default="Skip to content&hellip;"/></a>
+        <g:render template="/template/nav" />
         <div class="nav" role="navigation">
             <ul>
                 <li><a class="home" href="\${createLink(uri: '/')}"><g:message code="default.home.label"/></a></li>

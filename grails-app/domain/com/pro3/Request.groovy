@@ -59,6 +59,8 @@ class Request {
         approvedByDate nullable: true
         modifiedBy nullable: true
         modifiedByDate nullable: true
+        dateCreated display: false
+        lastUpdated display: false
     }
 
     public String toString() {

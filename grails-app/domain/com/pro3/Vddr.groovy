@@ -20,6 +20,8 @@ class Vddr {
         copies nullable: true
         copiesForReview nullable: true
         copiesFinal nullable: true
+        dateCreated display: false
+        lastUpdated display: false
     }
 
     public String toString() {

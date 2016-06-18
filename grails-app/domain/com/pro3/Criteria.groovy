@@ -12,6 +12,8 @@ class Criteria {
     static constraints = {
         name nullable: false, blank: false
         weighting nullable: true
+        dateCreated display: false
+        lastUpdated display: false
     }
 
     public String toString() {

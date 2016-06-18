@@ -20,6 +20,8 @@ class LineItem {
         quantity nullable: true
         unitOfMeasure nullable: true, size: 0..25
         extendedPrice nullable: true, scale: 2
+        dateCreated display: false
+        lastUpdated display: false
     }
 
     public String toString() {

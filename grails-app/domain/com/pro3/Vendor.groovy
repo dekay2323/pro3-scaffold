@@ -11,6 +11,8 @@ class Vendor {
 
     static constraints = {
         name nullable: false, blank: false, size: 0..50
+        dateCreated display: false
+        lastUpdated display: false
     }
 
     public String toString() {
