@@ -7,7 +7,7 @@ class Quote {
     Date lastUpdated
 
     static belongsTo = [request: Request]
-    static hasMany = [lineItems: LineItem]
+    static hasMany = [quoteLineItems: QuoteLineItem]
 
     static constraints = {
         name nullable: false, blank: false, unique: true, size: 0..25

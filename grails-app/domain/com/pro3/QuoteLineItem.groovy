@@ -1,7 +1,5 @@
 package com.pro3
 
-import javax.sound.sampled.Line
-
 class QuoteLineItem {
     BigDecimal price
     Date shipDate
@@ -9,7 +7,7 @@ class QuoteLineItem {
     Date dateCreated
     Date lastUpdated
     
-    static belongsTo = [quote: Quote, lineItem: Line]
+    static belongsTo = [quote: Quote, lineItem: LineItem]
 
     static constraints = {
         name nullable: false, blank: false, unique: true, size: 0..25

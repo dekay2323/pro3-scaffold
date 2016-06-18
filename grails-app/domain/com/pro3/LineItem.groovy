@@ -9,7 +9,6 @@ class LineItem {
     BigDecimal extendedPrice
 
     static belongsTo = [request: Request]
-    static hasMany = [qouteLineItem: QuoteLineItem]
 
     Date dateCreated
     Date lastUpdated
