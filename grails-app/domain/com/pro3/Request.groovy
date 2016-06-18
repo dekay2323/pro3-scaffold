@@ -1,6 +1,7 @@
 package com.pro3
 
 import com.pro3.type.LeadTime
+import com.pro3.type.RequestStatus
 import com.pro3.type.Strategy
 
 class Request {
@@ -8,6 +9,7 @@ class Request {
     Client client
     String description
     BigDecimal budget
+    RequestStatus status
     Date rasDate
     String estLeadTime
     LeadTime leadTime
@@ -38,6 +40,7 @@ class Request {
         project nullable: false
         description nullable: true, blank: false, size: 0..500
         budget nullable: true, scale: 2
+        status nullable: false
         rasDate nullable: true
         estLeadTime nullable: true, size: 0..25
         leadTime nullable: true

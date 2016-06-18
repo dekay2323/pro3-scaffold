@@ -1,6 +1,7 @@
 package com.pro3
 
 class Project {
+    String projectNumber
     String name
     Client client
 
@@ -10,6 +11,7 @@ class Project {
     static hasMany = [requests: Request]
 
     static constraints = {
+        projectNumber nullable: false, size: 0..25
         name nullable: false, size: 0..50
         client nullable: false
     }
