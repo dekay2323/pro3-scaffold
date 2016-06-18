@@ -1,4 +1,4 @@
-package pro3.com.pro3.type
+package com.pro3.type
 
 import grails.test.mixin.TestFor
 import spock.lang.Specification

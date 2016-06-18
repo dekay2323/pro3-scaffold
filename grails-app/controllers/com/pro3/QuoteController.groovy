@@ -1,4 +1,4 @@
-package pro3.com.pro3
+package com.pro3
 
 import com.pro3.Quote
 

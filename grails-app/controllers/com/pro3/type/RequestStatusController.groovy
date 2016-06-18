@@ -1,6 +1,4 @@
-package pro3.com.pro3.type
-
-import com.pro3.type.RequestStatus
+package com.pro3.type
 
 class RequestStatusController {
     static scaffold = RequestStatus
