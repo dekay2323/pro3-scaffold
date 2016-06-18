@@ -1,13 +1,15 @@
 package com.pro3
 
-class Quote {
-    String name
+import javax.sound.sampled.Line
+
+class QuoteLineItem {
+    BigDecimal price
+    Date shipDate
 
     Date dateCreated
     Date lastUpdated
-
-    static belongsTo = [request: Request]
-    static hasMany = [lineItems: LineItem]
+    
+    static belongsTo = [quote: Quote, lineItem: Line]
 
     static constraints = {
         name nullable: false, blank: false, unique: true, size: 0..25
