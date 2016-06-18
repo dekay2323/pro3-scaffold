@@ -1,6 +1,6 @@
-package com.pro3.type
+package com.pro3.scaffold.type
 
-class LeadTime {
+class RequestStatus {
     String name
 
     Date dateCreated

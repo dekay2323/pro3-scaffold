@@ -1,6 +1,6 @@
-package com.pro3.type
+package com.pro3.scaffold.type
 
-class Strategy {
+class LeadTime {
     String name
 
     Date dateCreated
