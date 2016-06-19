@@ -1,5 +1,5 @@
 package com.pro3
 
-class RfqController {
+class RfqScaffController {
     static scaffold = Rfq
 }

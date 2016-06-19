@@ -1,5 +1,5 @@
 package com.pro3.type
 
-class RequestStatusController {
+class RequestStatusScaffController {
     static scaffold = RequestStatus
 }

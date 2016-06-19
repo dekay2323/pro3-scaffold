@@ -1,5 +1,5 @@
 package com.pro3.type
 
-class StrategyController {
+class StrategyScaffController {
     static scaffold = Strategy
 }

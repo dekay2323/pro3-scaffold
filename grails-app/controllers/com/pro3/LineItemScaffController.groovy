@@ -1,5 +1,5 @@
 package com.pro3
 
-class LineItemController {
+class LineItemScaffController {
     static scaffold = LineItem
 }

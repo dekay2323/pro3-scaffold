@@ -1,5 +1,5 @@
 package com.pro3
 
-class ClientController {
+class ClientScaffController {
     static scaffold = Client
 }

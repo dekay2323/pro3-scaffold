@@ -1,5 +1,5 @@
 package com.pro3.type
 
-class LeadTimeController {
+class LeadTimeScaffController {
     static scaffold = LeadTime
 }

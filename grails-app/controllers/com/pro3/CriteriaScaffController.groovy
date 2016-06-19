@@ -1,5 +1,5 @@
 package com.pro3
 
-class CriteriaController {
+class CriteriaScaffController {
     static scaffold = Criteria
 }

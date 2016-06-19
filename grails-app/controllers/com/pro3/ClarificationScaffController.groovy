@@ -1,5 +1,5 @@
 package com.pro3
 
-class ClarificationController {
+class ClarificationScaffController {
     static scaffold = Clarification
 }

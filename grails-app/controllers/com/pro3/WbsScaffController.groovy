@@ -1,5 +1,5 @@
 package com.pro3
 
-class WbsController {
+class WbsScaffController {
     static scaffold = Wbs
 }

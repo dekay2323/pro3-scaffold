@@ -1,5 +1,5 @@
 package com.pro3
 
-class ProjectController {
+class ProjectScaffController {
     static scaffold = Project
 }

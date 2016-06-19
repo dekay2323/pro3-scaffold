@@ -1,6 +1,6 @@
 package com.pro3
 
-class QuoteController {
+class QuoteScaffController {
     static scaffold = Quote
 
 }

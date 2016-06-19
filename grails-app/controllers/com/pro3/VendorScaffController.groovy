@@ -1,5 +1,5 @@
 package com.pro3
 
-class VendorController {
+class VendorScaffController {
     static scaffold = Vendor
 }

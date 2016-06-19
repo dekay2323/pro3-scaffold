@@ -1,5 +1,5 @@
 package com.pro3
 
-class VddrController {
+class VddrScaffController {
     static scaffold = Vddr
 }
