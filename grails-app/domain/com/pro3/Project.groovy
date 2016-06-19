@@ -14,6 +14,7 @@ class Project {
         projectNumber nullable: false, size: 0..25
         name nullable: false, size: 0..50
         client nullable: false
+
         dateCreated display: false
         lastUpdated display: false
     }
