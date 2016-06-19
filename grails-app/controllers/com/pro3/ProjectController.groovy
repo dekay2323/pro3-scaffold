@@ -52,7 +52,7 @@ class ProjectController {
 
     @Transactional
     def update(Project project) {
-        if (project == null) {
+        if (project == null) {gr
             transactionStatus.setRollbackOnly()
             notFound()
             return

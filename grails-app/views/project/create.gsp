@@ -28,13 +28,11 @@
             </g:hasErrors>
             <g:form action="save">
                 <fieldset class="form">
-                    <g:form>
-                        <f:with bean="project">
-                            <f:field property="projectNumber"/>
-                            <f:field property="name"/>
-                            <f:field property="client"/><g:link controller="client" class="create" action="create" target="_blank">New Client</g:link>
-                        </f:with>
-                    </g:form>
+                    <f:with bean="project">
+                        <f:field property="projectNumber"/>
+                        <f:field property="name"/>
+                        <f:field property="client"/><g:link controller="client" class="create" action="create" target="_blank">New Client</g:link>
+                    </f:with>
                 </fieldset>
                 <fieldset class="buttons">
                     <g:submitButton name="create" class="save" value="${message(code: 'default.button.create.label', default: 'Create')}" />
