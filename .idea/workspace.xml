@@ -2,6 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34da3dd2-1a91-4441-8099-c462cb0ea399" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grails-app/controllers/com/pro3/scaffold/ClarificationScaffController.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grails-app/controllers/com/pro3/scaffold/ClientScaffController.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grails-app/controllers/com/pro3/scaffold/CriteriaScaffController.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grails-app/controllers/com/pro3/scaffold/LineItemScaffController.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grails-app/controllers/com/pro3/scaffold/ProjectScaffController.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grails-app/controllers/com/pro3/scaffold/QuoteScaffController.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grails-app/controllers/com/pro3/scaffold/RequestItemScaffController.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grails-app/controllers/com/pro3/scaffold/RfqScaffController.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grails-app/controllers/com/pro3/scaffold/VddrScaffController.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grails-app/controllers/com/pro3/scaffold/VendorScaffController.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grails-app/controllers/com/pro3/scaffold/WbsScaffController.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grails-app/controllers/com/pro3/scaffold/type/LeadTimeScaffController.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grails-app/controllers/com/pro3/scaffold/type/RequestStatusScaffController.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grails-app/controllers/com/pro3/scaffold/type/StrategyScaffController.groovy" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/devDb.mv.db" afterPath="$PROJECT_DIR$/devDb.mv.db" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="pro3.iws" />
@@ -39,21 +54,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UrlMappings.groovy" pinned="false" current-in-tab="false">
+      <file leaf-file-name="UrlMappings.groovy" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/grails-app/controllers/UrlMappings.groovy">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
               <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RequestItemController.groovy" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/pro3/RequestItemController.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -69,71 +74,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RfqController.groovy" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/pro3/RfqController.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LeadTimeController.groovy" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/pro3/type/LeadTimeController.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RequestStatusController.groovy" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/pro3/type/RequestStatusController.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StrategyController.groovy" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/pro3/type/StrategyController.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_nav.gsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_nav.gsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/views/templates/_nav.gsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
               <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LineItemController.groovy" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/pro3/LineItemController.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="QuoteController.groovy" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/pro3/QuoteController.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -896,10 +841,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/grails-app/domain/com/pro3/type/LeadTime.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/domain/com/pro3/type/RequestStatus.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/domain/com/pro3/type/Strategy.groovy" />
         <option value="$PROJECT_DIR$/grails-app/domain/com/pro3/Clarification.groovy" />
         <option value="$PROJECT_DIR$/grails-app/domain/com/pro3/Criteria.groovy" />
         <option value="$PROJECT_DIR$/grails-app/domain/com/pro3/LineItem.groovy" />
@@ -925,7 +866,6 @@
         <option value="$PROJECT_DIR$/grails-app/controllers/com/pro3/type/StrategyControllerSpec.groovy" />
         <option value="$PROJECT_DIR$/grails-app/views/project/edit.gsp" />
         <option value="$PROJECT_DIR$/grails-app/domain/com/pro3/Client.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/controllers/UrlMappings.groovy" />
         <option value="$PROJECT_DIR$/grails-app/domain/com/pro3/Project.groovy" />
         <option value="$PROJECT_DIR$/src/main/templates/scaffolding/index.gsp" />
         <option value="$PROJECT_DIR$/src/main/templates/scaffolding/edit.gsp" />
@@ -947,6 +887,11 @@
         <option value="$PROJECT_DIR$/grails-app/controllers/com/pro3/type/StrategyController.groovy" />
         <option value="$PROJECT_DIR$/grails-app/controllers/com/pro3/RequestItemController.groovy" />
         <option value="$PROJECT_DIR$/grails-app/views/templates/_nav.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/controllers/com/pro3/type/RequestStatusScaffController.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/controllers/com/pro3/RequestItemScaffController.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/controllers/UrlMappings.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/controllers/com/pro3/HomeController.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/controllers/com/pro3/ClarificationScaffController.groovy" />
       </list>
     </option>
   </component>
@@ -1024,6 +969,42 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="groovy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pro3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pro3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pro3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pro3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="grails-app" />
               <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
             </PATH_ELEMENT>
@@ -1067,14 +1048,6 @@
               <option name="myItemId" value="grails-app" />
               <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layouts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -1088,6 +1061,10 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="grails-app" />
               <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -1119,9 +1096,12 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="968" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/grails-app/controllers/com/pro3" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.pro3.scaffold.type" />
+      <recent name="com.pro3.scaffold" />
       <recent name="com.pro3" />
       <recent name="com.pro3.type" />
       <recent name="pro3.com.pro3" />
@@ -1521,7 +1501,7 @@
       <workItem from="1466212471254" duration="5128000" />
       <workItem from="1466226940100" duration="2000" />
       <workItem from="1466272642912" duration="11070000" />
-      <workItem from="1466349407992" duration="4901000" />
+      <workItem from="1466349407992" duration="7096000" />
     </task>
     <task id="LOCAL-00001" summary="Intellij">
       <created>1466042094150</created>
@@ -1705,11 +1685,32 @@
       <option name="project" value="LOCAL" />
       <updated>1466356936857</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Trying to get back to scaffolding">
+      <created>1466356948058</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1466356948058</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Trying to get back to scaffolding">
+      <created>1466357492076</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1466357492076</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Trying to get back to scaffolding">
+      <created>1466359006355</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1466359006355</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36879000" />
+    <option name="totallyTimeSpent" value="39074000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1819,47 +1820,7 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web-gsp-taglib/3.1.8/5e2285b02a25d0b73f1edd93a2af0c428e053a3a/grails-web-gsp-taglib-3.1.8-sources.jar!/org/grails/plugins/web/taglib/SitemeshTagLib.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="172" column="12" selection-start-line="172" selection-start-column="12" selection-end-line="172" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/layouts/main.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="31" column="54" selection-start-line="31" selection-start-column="54" selection-end-line="31" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/controllers.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web-gsp-taglib/3.1.8/5e2285b02a25d0b73f1edd93a2af0c428e053a3a/grails-web-gsp-taglib-3.1.8-sources.jar!/org/grails/plugins/web/taglib/RenderTagLib.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="224" column="12" selection-start-line="224" selection-start-column="12" selection-end-line="224" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/index.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/requestItem/index.gsp">
+    <entry file="file://$PROJECT_DIR$/grails-app/views/requestItemScaff/index.gsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="52" />
@@ -1875,7 +1836,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/pro3/ProjectControllerSpec.groovy" />
     <entry file="file://$PROJECT_DIR$/src/test/groovy/com/pro3/RequestControllerSpec.groovy" />
     <entry file="file://$PROJECT_DIR$/src/test/groovy/com/pro3/WbsSpec.groovy" />
     <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/pro3/type/StrategyControllerSpec.groovy" />
@@ -1923,7 +1883,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/project/show.gsp">
+    <entry file="file://$PROJECT_DIR$/grails-app/views/projectScaff/show.gsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1931,7 +1891,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/project/edit.gsp">
+    <entry file="file://$PROJECT_DIR$/grails-app/views/projectScaff/edit.gsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="310">
           <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
@@ -1966,7 +1926,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/client/create.gsp">
+    <entry file="file://$PROJECT_DIR$/grails-app/views/clientScaff/create.gsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -2067,7 +2027,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/project/create.gsp">
+    <entry file="file://$PROJECT_DIR$/grails-app/views/projectScaff/create.gsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="31" selection-end-column="27" />
@@ -2075,7 +2035,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/project/index.gsp">
+    <entry file="file://$PROJECT_DIR$/grails-app/views/projectScaff/index.gsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
@@ -2083,15 +2043,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/pro3/ProjectController.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="16" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/pro3/VddrController.groovy">
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/pro3/scaffold/VddrScaffController.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
@@ -2099,7 +2051,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/pro3/VendorController.groovy">
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/pro3/scaffold/VendorScaffController.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
@@ -2107,7 +2059,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/pro3/WbsController.groovy">
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/pro3/scaffold/WbsScaffController.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
@@ -2115,23 +2067,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/pro3/ClarificationController.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/pro3/ClientController.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/pro3/CriteriaController.groovy">
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/pro3/scaffold/CriteriaScaffController.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="30" />
@@ -2139,7 +2075,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/pro3/LineItemController.groovy">
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/pro3/scaffold/QuoteScaffController.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
@@ -2147,58 +2083,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/pro3/QuoteController.groovy">
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/pro3/scaffold/RfqScaffController.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/pro3/RfqController.groovy">
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/pro3/scaffold/type/StrategyScaffController.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/pro3/type/LeadTimeController.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/pro3/type/RequestStatusController.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/pro3/type/StrategyController.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/UrlMappings.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/pro3/RequestItemController.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
           <folding />
         </state>
       </provider>
@@ -2215,6 +2111,118 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/pro3/scaffold/type/RequestStatusScaffController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/pro3/scaffold/ClientScaffController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/pro3/scaffold/RequestItemScaffController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/pro3/HomeController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/pro3/ProjectControllerSpec.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/pro3/scaffold/type/LeadTimeScaffController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/pro3/scaffold/ProjectScaffController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/pro3/scaffold/LineItemScaffController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/UrlMappings.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/clarificationScaff/create.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-149">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/pro3/type/StrategyScaffController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/requestStatusScaff/index.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/pro3/ClarificationScaffController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="42" column="38" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/pro3/scaffold/ClarificationScaffController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
           <folding />
         </state>
       </provider>
