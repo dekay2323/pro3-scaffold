@@ -9,7 +9,7 @@ class UrlMappings {
             }
         }
 
-        "/"(controller:'flow1', action:'index')
+        "/"(controller:'flow1', action:'home')
         "/controllers"(view:"/controllers")
         "500"(view:'/error')
         "404"(view:'/notFound')
