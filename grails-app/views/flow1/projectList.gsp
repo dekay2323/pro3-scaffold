@@ -9,34 +9,30 @@
 <a href="#list-project" class="skip" tabindex="-1"><g:message code="default.link.skip.label" default="Skip to content&hellip;"/></a>
 <g:render template="/templates/nav" />
 <div class="nav" role="navigation">
-    <ul>
-        <li><a class="home" href="${createLink(uri: '/')}"><g:message code="default.home.label"/></a></li>
-        <li><g:link class="create" action="create"><g:message code="default.new.label" args="[entityName]" /></g:link></li>
-    </ul>
 </div>
-<div id="list-project" class="content scaffold-list" role="main">
+<div id="list-project" class="content" role="main">
     <h1>Project List</h1>
     <g:if test="${flash.message}">
         <div class="message" role="status">${flash.message}</div>
     </g:if>
 
     <g:each in="${projectList}" var="project">
-        <h2>${project?.name}</h2>
         <table>
             <thead>
             <tr>
-                <g:sortableColumn property="reqNumber" title="Client" />
-                <g:sortableColumn property="budget" title="Budget" />
-                <th class="sortable">Commited</th>
-                <th class="sortable">Accrued</th>
-                <th class="sortable">Incurred</th>
+                <th colspan="2" width="40%"><g:link action="procurementPlan" id="${project.id}">${project?.name}</g:link></th>
+                <g:sortableColumn property="budget" title="Budget" width="20%" />
+                <th width="20%" class="sortable">Commited</th>
+                <th width="20%" class="sortable">Accrued</th>
+                <th width="20%" class="sortable">Incurred</th>
             </tr>
             </thead>
             <tbody>
             <g:each in="${project?.requests}" var="requestItem" status="i">
                 <tr class="${(i % 2) == 0 ? 'even' : 'odd'}">
-                    <td><g:fieldValue bean="${requestItem}" field="reqNumber" /></td>
-                    <td><g:fieldValue bean="${requestItem}" field="budget" /></td>
+                    <td width="10%"><g:fieldValue bean="${requestItem}" field="reqNumber" /></td>
+                    <td width="30%"><g:fieldValue bean="${requestItem}" field="description" /></td>
+                    <td width="20%"><g:fieldValue bean="${requestItem}" field="budget" /></td>
                 </tr>
             </g:each>
             </tbody>
