@@ -9,6 +9,9 @@
 <a href="#list-project" class="skip" tabindex="-1"><g:message code="default.link.skip.label" default="Skip to content&hellip;"/></a>
 <g:render template="/templates/nav" />
 <div class="nav" role="navigation">
+    <ul>
+        <li><g:link class="create" action="create"><g:message code="default.new.label" args="[entityName]" /></g:link></li>
+    </ul>
 </div>
 <div id="list-project" class="content" role="main">
     <h1>Project List</h1>

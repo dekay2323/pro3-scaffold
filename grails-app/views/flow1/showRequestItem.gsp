@@ -15,7 +15,6 @@
     <g:if test="${flash.message}">
         <div class="message" role="status">${flash.message}</div>
     </g:if>
-
     <ol class="property-list">
         <li class="fieldcontain">
             <span id="client-label" class="property-label">Client</span>
@@ -99,7 +98,7 @@
 
     <g:form resource="${this.requestItem}" method="DELETE">
         <fieldset class="buttons">
-            <g:link class="edit" action="edit" resource="${this.requestItem}"><g:message code="default.button.edit.label" default="Edit" /></g:link>
+            <g:link class="edit" action="editRequestItem" id="${this.requestItem.id}"><g:message code="default.button.edit.label" default="Edit" /></g:link>
             <input class="delete" type="submit" value="${message(code: 'default.button.delete.label', default: 'Delete')}" onclick="return confirm('${message(code: 'default.button.delete.confirm.message', default: 'Are you sure?')}');" />
         </fieldset>
     </g:form>
