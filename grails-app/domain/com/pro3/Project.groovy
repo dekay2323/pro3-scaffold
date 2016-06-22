@@ -22,6 +22,6 @@ class Project {
     }
 
     public String toString() {
-        "${name}"
+        "${projectNumber} - ${name}"
     }
 }

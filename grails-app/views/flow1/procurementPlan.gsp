@@ -11,7 +11,7 @@
 <div class="nav" role="navigation">
 </div>
 <div id="list-project" class="content" role="main">
-    <h1>${project.client} ${project.projectNumber} ${project.name}</h1>
+    <h1>${project.toString()}</h1>
     <g:if test="${flash.message}">
         <div class="message" role="status">${flash.message}</div>
     </g:if>

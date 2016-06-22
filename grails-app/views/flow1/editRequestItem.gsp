@@ -17,7 +17,7 @@
         <div class="message" role="status">${flash.message}</div>
     </g:if>
 
-    <g:form resource="${this.requestItem}" method="PUT">
+    <g:form action="saveRequestItem" id="${requestItem?.id}" params="[vendorId: vendorId]" method="PUT">
         <g:hiddenField name="version" value="${this.requestItem?.version}" />
         <fieldset class="form">
             <f:field bean="requestItem" property="client"></f:field>
@@ -38,7 +38,7 @@
         <fieldset class="form">
             <div class="fieldcontain">
                 <label for="addBidder">Add Bidder</label>
-                <g:select name="vendorId" from="${com.pro3.Vendor.list()}" noSelection="${['null':'']}"/>
+                <g:select id="vendor.id" name="vendorId" from="${com.pro3.Vendor.list()}" noSelection="${['null':'']}"/>
             </div>
         </fieldset>
         <table>
@@ -59,9 +59,41 @@
             </tbody>
         </table>
 
+        <h1>Scope of Supply</h1>
+        <fieldset class="form">
+            <div class="fieldcontain">
+                <label for="addBidder">Add Bidder</label>
+                <g:select id="vendor.id" name="vendorId" from="${com.pro3.Vendor.list()}" noSelection="${['null':'']}"/>
+            </div>
+        </fieldset>
+        <table>
+            <thead>
+            <tr>
+                <g:sortableColumn property="code" title="code" />
+                <g:sortableColumn property="wbs" title="wbs" />
+                <g:sortableColumn property="description" title="description" />
+                <g:sortableColumn property="quantity" title="quantity" />
+                <g:sortableColumn property="unitOfMeasure" title="unitOfMeasure" />
+            </tr>
+            </thead>
+            <tbody>
+            <g:if test="${!requestItem?.lineItems}">
+                <tr class="even"><td>None</td></tr>
+            </g:if>
+            <g:each in="${requestItem?.lineItems}" var="lineItem" status="i">
+                <tr class="${(i % 2) == 0 ? 'even' : 'odd'}">
+                    <td><g:fieldValue bean="${lineItem}" field="code" /></td>
+                    <td><g:fieldValue bean="${lineItem}" field="wbs" /></td>
+                    <td><g:fieldValue bean="${lineItem}" field="description" /></td>
+                    <td><g:fieldValue bean="${lineItem}" field="quantity" /></td>
+                    <td><g:fieldValue bean="${lineItem}" field="unitOfMeasure" /></td>
+                </tr>
+            </g:each>
+            </tbody>
+        </table>
 
-    <fieldset class="buttons">
-    <input class="save" type="submit" value="${message(code: 'default.button.update.label', default: 'Update')}" />
+        <fieldset class="buttons">
+            <input class="save" type="submit" value="${message(code: 'default.button.update.label', default: 'Update')}" />
         </fieldset>
     </g:form>
 </div>

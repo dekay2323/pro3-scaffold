@@ -6,7 +6,6 @@ class LineItem {
     String description
     Integer quantity
     String unitOfMeasure
-    BigDecimal extendedPrice
 
     static belongsTo = [request: RequestItem]
 
@@ -19,7 +18,6 @@ class LineItem {
         description nullable: true, size: 0..500
         quantity nullable: true
         unitOfMeasure nullable: true, size: 0..25
-        extendedPrice nullable: true, scale: 2
         dateCreated display: false
         lastUpdated display: false
     }

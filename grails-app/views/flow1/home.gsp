@@ -12,9 +12,28 @@
 </div>
 <div id="list-project" class="content" role="main">
     <h1>Pro3</h1>
-    <g:if test="${flash.message}">
-        <div class="message" role="status">${flash.message}</div>
-    </g:if>
+
+    <div id="content" role="main">
+        <section class="row colset-2-its">
+            <div id="controllers" role="navigation">
+                <ul>
+                    <li class="controller">
+                        <g:link controller="client" action="create">Client</g:link>
+                    </li>
+                    <li class="controller">
+
+                        <g:link controller="requestStatus" action="create">Request Status</g:link>
+                    </li>
+                    <li class="controller">
+                        <g:link controller="strategy" action="create">Strategy</g:link>
+                    </li>
+                    <li class="controller">
+                        <g:link controller="vendor" action="create">Vendor</g:link>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </div>
 
 </div>
 </body>

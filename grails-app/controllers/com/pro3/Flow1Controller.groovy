@@ -29,6 +29,7 @@ class Flow1Controller {
 
     @Transactional
     def saveRequestItem(RequestItem requestItem) {
+        params.vendorId
         if (requestItem == null) {
             transactionStatus.setRollbackOnly()
             notFound()
@@ -48,11 +49,44 @@ class Flow1Controller {
                 flash.message = message(code: 'default.created.message', args: [message(code: 'requestItem.label', default: 'RequestItem'), requestItem.id])
                 redirect requestItem
             }
-            '*' { respond requestItem, [status: CREATED] }
+            '*' { respond(view: 'editRequestItem', requestItem, [status: CREATED]) }
         }
     }
 
     def editRequestItem(RequestItem requestItem) {
         respond requestItem
+    }
+
+    def createProject() {
+        respond new Project(params)
+    }
+
+    @Transactional
+    def saveProject(Project project) {
+        if (project == null) {
+            transactionStatus.setRollbackOnly()
+            notFound()
+            return
+        }
+
+        if (project.hasErrors()) {
+            transactionStatus.setRollbackOnly()
+            respond project.errors, view:'create'
+            return
+        }
+
+        project.save flush:true
+
+        request.withFormat {
+            form multipartForm {
+                flash.message = message(code: 'default.created.message', args: [message(code: 'project.label', default: 'Project'), project.id])
+                redirect project
+            }
+            '*' { respond(view: 'projectList', project, [status: CREATED]) }
+        }
+    }
+
+    def editProject(Project project) {
+        respond project
     }
 }
