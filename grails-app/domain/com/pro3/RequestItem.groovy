@@ -45,13 +45,13 @@ class RequestItem {
         estLeadTime nullable: true, size: 0..25
         leadTime nullable: true
         strategy nullable: true
-        technicalInstructions nullable: true, size: 0..500
-//
-//        bidders nullable: true
-//        lineItems nullable: true
-//        vddrs nullable: true
-//        criteria nullable: true
-//        rfqs nullable: true
+        technicalInstructions nullable: true, size: 0..500, widget: 'textarea'
+
+        bidders nullable: true
+        lineItems nullable: true
+        vddrs nullable: true
+        criteria nullable: true
+        rfqs nullable: true
 
         enteredBy nullable: true
         enteredByDate nullable: true
