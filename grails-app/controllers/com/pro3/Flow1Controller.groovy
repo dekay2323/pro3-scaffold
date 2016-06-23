@@ -29,7 +29,6 @@ class Flow1Controller {
 
     @Transactional
     def saveRequestItem(RequestItem requestItem) {
-        params.vendorId
         if (requestItem == null) {
             transactionStatus.setRollbackOnly()
             notFound()
@@ -38,7 +37,7 @@ class Flow1Controller {
 
         if (requestItem.hasErrors()) {
             transactionStatus.setRollbackOnly()
-            respond requestItem.errors, view:'create'
+            respond (requestItem.errors, view:'createRequestItem')
             return
         }
 
@@ -47,7 +46,7 @@ class Flow1Controller {
         request.withFormat {
             form multipartForm {
                 flash.message = message(code: 'default.created.message', args: [message(code: 'requestItem.label', default: 'RequestItem'), requestItem.id])
-                redirect requestItem
+                redirect action:'procurementPlan', id:requestItem?.project?.id
             }
             '*' { respond(view: 'editRequestItem', requestItem, [status: CREATED]) }
         }
@@ -88,5 +87,9 @@ class Flow1Controller {
 
     def editProject(Project project) {
         respond project
+    }
+
+    def createRequestItem() {
+        respond new RequestItem(params)
     }
 }

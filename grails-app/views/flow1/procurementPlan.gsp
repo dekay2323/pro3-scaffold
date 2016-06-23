@@ -9,12 +9,26 @@
 <a href="#list-project" class="skip" tabindex="-1"><g:message code="default.link.skip.label" default="Skip to content&hellip;"/></a>
 <g:render template="/templates/nav" />
 <div class="nav" role="navigation">
+    <ul>
+        <li><g:link class="list" action="projectList" id="${requestItem?.project?.id}">Project List</g:link></li>
+    </ul>
 </div>
 <div id="list-project" class="content" role="main">
     <h1>${project.toString()}</h1>
+
     <g:if test="${flash.message}">
         <div class="message" role="status">${flash.message}</div>
     </g:if>
+    <ol class="property-list">
+        <li class="fieldcontain">
+            <span id="client-label" class="property-label">Client</span>
+            <div class="property-value">${project?.client}</div>
+        </li>
+        <li class="fieldcontain">
+            <span id="project-label" class="property-label">Project</span>
+            <div class="property-value">${project?.projectNumber} ${requestItem?.project?.name}</div>
+        </li>
+    </ol>
 
     <table>
         <thead>
@@ -42,6 +56,10 @@
         </g:each>
         </tbody>
     </table>
+
+    <fieldset class="buttons">
+        <g:link class="save" action="createRequestItem" params="[project: project.id]">New RequestItem</g:link>
+    </fieldset>
 </div>
 </body>
 </html>

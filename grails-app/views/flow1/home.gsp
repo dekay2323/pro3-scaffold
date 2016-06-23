@@ -21,7 +21,9 @@
                         <g:link controller="client" action="create">Client</g:link>
                     </li>
                     <li class="controller">
-
+                        <g:link controller="leadTime" action="create">LeadTime</g:link>
+                    </li>
+                    <li class="controller">
                         <g:link controller="requestStatus" action="create">Request Status</g:link>
                     </li>
                     <li class="controller">

@@ -12,9 +12,11 @@
 </div>
 <div id="show-requestItem" class="content scaffold-show" role="main">
     <h1>Request Item</h1>
+
     <g:if test="${flash.message}">
         <div class="message" role="status">${flash.message}</div>
     </g:if>
+
     <ol class="property-list">
         <li class="fieldcontain">
             <span id="client-label" class="property-label">Client</span>

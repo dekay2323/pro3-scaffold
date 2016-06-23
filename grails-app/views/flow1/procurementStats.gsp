@@ -41,8 +41,7 @@
         <thead>
         <tr>
             <g:sortableColumn property="client" title="Client" />
-            <g:sortableColumn property="projectNumber" title="Project Number" />
-            <g:sortableColumn property="name" title="Name" />
+            <g:sortableColumn property="projectNumber" title="Project" />
             <th class="sortable">PO#</th>
             <g:sortableColumn property="shortDescription" title="Short Desc" />
             <th class="sortable">Short Desc</th>
@@ -55,8 +54,7 @@
         <g:each in="${projectList}" var="project" status="i">
             <tr class="${(i % 2) == 0 ? 'even' : 'odd'}">
                 <td><g:fieldValue bean="${project}" field="client" /></td>
-                <td><g:fieldValue bean="${project}" field="projectNumber" /></td>
-                <td><g:fieldValue bean="${project}" field="name" /></td>
+                <td><g:link action="procurementPlan" id="${project?.id}">${project?.projectNumber}</g:link> ${project?.name}</td>
                 <td></td>
                 <td><g:fieldValue bean="${project}" field="shortDescription" /></td>
             </tr>
