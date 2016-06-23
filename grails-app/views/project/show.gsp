@@ -27,6 +27,7 @@
                     <input class="delete" type="submit" value="${message(code: 'default.button.delete.label', default: 'Delete')}" onclick="return confirm('${message(code: 'default.button.delete.confirm.message', default: 'Are you sure?')}');" />
                 </fieldset>
             </g:form>
+            <h1>Requests</h1>
             <f:table collection="${project.requests}" properties="['reqNumber', 'description', 'budget', 'rasDate', 'estLeadTime', 'leadTime', 'strategy']"/>
         </div>
     </body>
