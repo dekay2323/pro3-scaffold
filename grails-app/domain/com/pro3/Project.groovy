@@ -9,7 +9,14 @@ class Project {
     Date dateCreated
     Date lastUpdated
 
+    BigDecimal budget
+    BigDecimal getBudget() {
+        requests.sum {it.budget ?: 0}
+    }
+
     static hasMany = [requests: RequestItem]
+
+    static transients = ['budget']
 
     static constraints = {
         projectNumber nullable: false, size: 0..25

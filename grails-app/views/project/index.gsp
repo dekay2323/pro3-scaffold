@@ -19,8 +19,29 @@
             <g:if test="${flash.message}">
                 <div class="message" role="status">${flash.message}</div>
             </g:if>
-            <f:table collection="${projectList}" />
 
+            <table>
+                <thead>
+                <tr>
+                    <g:sortableColumn property="client" title="Client" />
+                    <g:sortableColumn property="projectNumber" title="Project" />
+                    <g:sortableColumn property="budget" title="Budget" />
+                </tr>
+                </thead>
+                <tbody>
+                <g:each in="${projectList}" var="project" status="i">
+                    <tr class="${(i % 2) == 0 ? 'even' : 'odd'}">
+                        <td><f:display bean="${project}" property="client" /></td>
+                        <td>
+                            <g:link method="GET" controller="project" action="show" id="${project?.id}">
+                                <f:display bean="${project}" property="projectNumber" />
+                            </g:link> <f:display bean="${project}" property="name" />
+                        </td>
+                        <td><f:display bean="${project}" property="budget" /></td>
+                    </tr>
+                </g:each>
+                </tbody>
+            </table>
             <div class="pagination">
                 <g:paginate total="${projectCount ?: 0}" />
             </div>
