@@ -4,6 +4,7 @@ import com.pro3.type.LeadTime
 import com.pro3.type.RequestStatus
 import com.pro3.type.Strategy
 
+// @TODO: Does not need client as project has client
 class RequestItem {
     String reqNumber
     Client client
@@ -45,7 +46,7 @@ class RequestItem {
         estLeadTime nullable: true, size: 0..25
         leadTime nullable: true
         strategy nullable: true
-        technicalInstructions nullable: true, size: 0..500, widget: 'textarea'
+        technicalInstructions nullable: true, size: 0..255, widget: 'textarea'
 
         bidders nullable: true
         lineItems nullable: true

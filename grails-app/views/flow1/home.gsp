@@ -12,11 +12,7 @@
 </div>
 <div id="list-project" class="content" role="main">
     <h1>Pro3</h1>
-    <div class="btn-group" role="group" aria-label="...">
-        <button type="button" class="btn btn-default">Left</button>
-        <button type="button" class="btn btn-default">Middle</button>
-        <button type="button" class="btn btn-default">Right</button>
-    </div>
+
     <div id="content" role="main">
         <section class="row colset-2-its">
             <div id="controllers" role="navigation">
