@@ -7,15 +7,15 @@
         <title>Material Admin</title>
 
         <!-- Vendor CSS -->
-        <link href="assets/vendors/bower_components/fullcalendar/dist/fullcalendar.min.css" rel="stylesheet">
-        <link href="assets/vendors/bower_components/animate.css/animate.min.css" rel="stylesheet">
-        <link href="assets/vendors/bower_components/sweetalert/dist/sweetalert.css" rel="stylesheet">
-        <link href="assets/vendors/bower_components/material-design-iconic-font/dist/css/material-design-iconic-font.min.css" rel="stylesheet">
-        <link href="assets/vendors/bower_components/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.min.css" rel="stylesheet">
+        <link href="/assets/vendors/bower_components/fullcalendar/dist/fullcalendar.min.css" rel="stylesheet">
+        <link href="/assets/vendors/bower_components/animate.css/animate.min.css" rel="stylesheet">
+        <link href="/assets/vendors/bower_components/sweetalert/dist/sweetalert.css" rel="stylesheet">
+        <link href="/assets/vendors/bower_components/material-design-iconic-font/dist/css/material-design-iconic-font.min.css" rel="stylesheet">
+        <link href="/assets/vendors/bower_components/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.min.css" rel="stylesheet">
 
         <!-- CSS -->
-        <link href="assets/css/app_1.min.css" rel="stylesheet">
-        <link href="assets/css/app_2.min.css" rel="stylesheet">
+        <link href="/assets/css/app_1.min.css" rel="stylesheet">
+        <link href="/assets/css/app_2.min.css" rel="stylesheet">
 
     </head>
     <body>
@@ -93,7 +93,7 @@
                 <div class="s-profile">
                     <a href="" data-ma-action="profile-menu-toggle">
                         <div class="sp-pic">
-                            <img src="img/profile-pics/1.jpg" alt="">
+                            <img src="assets/profile-pics/demian.jpg" alt="">
                         </div>
 
                         <div class="sp-info">
@@ -146,15 +146,7 @@
         </section>
 
         <footer id="footer">
-            Copyright &copy; 2015 Material Admin
-
-            <ul class="f-menu">
-                <li><a href="">Home</a></li>
-                <li><a href="">Dashboard</a></li>
-                <li><a href="">Reports</a></li>
-                <li><a href="">Support</a></li>
-                <li><a href="">Contact</a></li>
-            </ul>
+            Copyright &copy; 2016 Pro3
         </footer>
 
         <!-- Page Loader -->
@@ -215,25 +207,25 @@
         <script src="assets/vendors/bower_components/jquery/dist/jquery.min.js"></script>
         <script src="assets/vendors/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 
-        <script src="assets/vendors/bower_components/flot/jquery.flot.js"></script>
-        <script src="assets/vendors/bower_components/flot/jquery.flot.resize.js"></script>
-        <script src="assets/vendors/bower_components/flot.curvedlines/curvedLines.js"></script>
-        <script src="assets/vendors/sparklines/jquery.sparkline.min.js"></script>
-        <script src="assets/vendors/bower_components/jquery.easy-pie-chart/dist/jquery.easypiechart.min.js"></script>
+        <script src="/assets/vendors/bower_components/flot/jquery.flot.js"></script>
+        <script src="/assets/vendors/bower_components/flot/jquery.flot.resize.js"></script>
+        <script src="/assets/vendors/bower_components/flot.curvedlines/curvedLines.js"></script>
+        <script src="/assets/vendors/sparklines/jquery.sparkline.min.js"></script>
+        <script src="/assets/vendors/bower_components/jquery.easy-pie-chart/dist/jquery.easypiechart.min.js"></script>
 
-        <script src="assets/vendors/bower_components/moment/min/moment.min.js"></script>
-        <script src="assets/vendors/bower_components/fullcalendar/dist/fullcalendar.min.js "></script>
-        <script src="assets/vendors/bower_components/simpleWeather/jquery.simpleWeather.min.js"></script>
-        <script src="assets/vendors/bower_components/Waves/dist/waves.min.js"></script>
-        <script src="assets/vendors/bootstrap-growl/bootstrap-growl.min.js"></script>
-        <script src="assets/vendors/bower_components/sweetalert/dist/sweetalert.min.js"></script>
-        <script src="assets/vendors/bower_components/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js"></script>
+        <script src="/assets/vendors/bower_components/moment/min/moment.min.js"></script>
+        <script src="/assets/vendors/bower_components/fullcalendar/dist/fullcalendar.min.js "></script>
+        <script src="/assets/vendors/bower_components/simpleWeather/jquery.simpleWeather.min.js"></script>
+        <script src="/assets/vendors/bower_components/Waves/dist/waves.min.js"></script>
+        <script src="/assets/vendors/bootstrap-growl/bootstrap-growl.min.js"></script>
+        <script src="/assets/vendors/bower_components/sweetalert/dist/sweetalert.min.js"></script>
+        <script src="/assets/vendors/bower_components/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js"></script>
 
         <!-- Placeholder for IE9 -->
         <!--[if IE 9 ]>
-            <script src="assets/vendors/bower_components/jquery-placeholder/jquery.placeholder.min.js"></script>
+            <script src="/assets/vendors/bower_components/jquery-placeholder/jquery.placeholder.min.js"></script>
         <![endif]-->
 
-        <script src="assets/js/app.min.js"></script>
+        <script src="/assets/js/app.min.js"></script>
     </body>
   </html>
