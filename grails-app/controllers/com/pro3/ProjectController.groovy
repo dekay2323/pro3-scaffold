@@ -17,6 +17,10 @@ class ProjectController {
         respond project
     }
 
+    def showMaterial(Project project) {
+        respond project
+    }
+
     def create() {
         respond new Project(params)
     }

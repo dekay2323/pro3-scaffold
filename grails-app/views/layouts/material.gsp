@@ -93,7 +93,7 @@
                 <div class="s-profile">
                     <a href="" data-ma-action="profile-menu-toggle">
                         <div class="sp-pic">
-                            <img src="assets/profile-pics/demian.jpg" alt="">
+                            <img src="/assets/profile-pics/demian.jpg" alt="">
                         </div>
 
                         <div class="sp-info">
@@ -149,7 +149,7 @@
             Copyright &copy; 2016 Pro3
         </footer>
 
-        <!-- Page Loader -->
+        <!-- Page Loader
         <div class="page-loader">
             <div class="preloader pls-blue">
                 <svg class="pl-circular" viewBox="25 25 50 50">
@@ -158,7 +158,7 @@
 
                 <p>Please wait...</p>
             </div>
-        </div>
+        </div>-->
 
         <!-- Older IE warning message -->
         <!--[if lt IE 9]>
@@ -204,8 +204,8 @@
         <![endif]-->
 
         <!-- Javascript Libraries -->
-        <script src="assets/vendors/bower_components/jquery/dist/jquery.min.js"></script>
-        <script src="assets/vendors/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="/assets/vendors/bower_components/jquery/dist/jquery.min.js"></script>
+        <script src="/assets/vendors/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 
         <script src="/assets/vendors/bower_components/flot/jquery.flot.js"></script>
         <script src="/assets/vendors/bower_components/flot/jquery.flot.resize.js"></script>
