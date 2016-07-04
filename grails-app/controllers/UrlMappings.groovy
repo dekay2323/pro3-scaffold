@@ -9,8 +9,8 @@ class UrlMappings {
             }
         }
 
-        "/"(controller:"home")
-        "/controllers"(view:"/controllers")
+        "/"(controller:'lists', view:'procurementStats')
+        "/controllers"(view:'/controllers')
         "500"(view:'/error')
         "404"(view:'/notFound')
     }

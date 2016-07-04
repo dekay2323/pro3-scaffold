@@ -53,9 +53,12 @@
             <g:each in="${projectList}" var="project" status="i">
                 <tr class="${(i % 2) == 0 ? 'even' : 'odd'}">
                     <td><g:fieldValue bean="${project}" field="client" /></td>
-                    <td><g:link action="procurementPlan" id="${project?.id}">${project?.projectNumber}</g:link> ${project?.name}</td>
+                    <td><g:link action="projectList" id="${project?.id}">${project?.projectNumber}</g:link> ${project?.name}</td>
                     <td></td>
                     <td><g:fieldValue bean="${project}" field="shortDescription" /></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
                 </tr>
             </g:each>
             </tbody>

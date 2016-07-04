@@ -50,35 +50,6 @@
                 <td><f:display bean="${requestItem}" property="estLeadTime" /> <f:display bean="${requestItem}" property="leadTime" /></td>
                 <td><f:display bean="${requestItem}" property="strategy" /></td>
             </tr>
-            <g:if test="${requestItem?.lineItems?.size() > 0}">
-                <tr>
-                    <td colspan="6">
-                        <h1>Line Items</h1>
-                        <table>
-                            <thead>
-                            <tr>
-                                <g:sortableColumn property="code" title="Line Item" />
-                                <g:sortableColumn property="wbs" title="WBS" />
-                                <g:sortableColumn property="description" title="Description" />
-                                <g:sortableColumn property="quantity" title="Quantity" />
-                                <g:sortableColumn property="unitOfMeasure" title="UoM" />
-                            </tr>
-                            </thead>
-                            <tbody>
-                            <g:each in="${requestItem?.lineItems}" var="lineItems" status="j">
-                                <tr class="${(j % 2) == 0 ? 'even' : 'odd'}">
-                                    <td><g:link method="GET" controller="lineItem" action="show" id="${lineItems?.id}"><f:display bean="${lineItems}" property="code" /></g:link></td>
-                                    <td><f:display bean="${lineItems}" property="wbs" /></td>
-                                    <td><f:display bean="${lineItems}" property="description" /></td>
-                                    <td><f:display bean="${lineItems}" property="quantity" /></td>
-                                    <td><f:display bean="${lineItems}" property="unitOfMeasure" /></td>
-                                </tr>
-                            </g:each>
-                            </tbody>
-                        </table>
-                    </td>
-                </tr>
-            </g:if>
         </g:each>
         </tbody>
     </table>
